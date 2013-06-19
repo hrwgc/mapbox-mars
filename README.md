@@ -1,10 +1,9 @@
-# MapBox Earth
+# MapBox Mars
 
-This is MapBox Earth, a starting point for making your own 3D globe in iOS with MapBox maps. 
+Like MapBox Earth, but for Mars.
 
-See the announcement blog post for more details: http://mapbox.com/blog/mapbox-earth
 
-![](http://i.imgur.com/4nJDl1s.gif)
+See the [MapBox Earth](http://mapbox.com/blog/mapbox-earth) announcement blog post for more details.
 
 ## Installation
 
