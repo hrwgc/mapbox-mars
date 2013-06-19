@@ -24,11 +24,11 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.mapbox.earth</string>
+	<string>com.mapbox.mars</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>mapboxearth</string>
+	<string>mapboxmars</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

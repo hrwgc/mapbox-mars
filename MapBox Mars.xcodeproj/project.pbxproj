@@ -77,14 +77,14 @@
 		2B4730081732D390000507E9 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "dependencies/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		2B4730091732D390000507E9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "dependencies/WhirlyGlobe-Maply/third-party/AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		2B477DC717308F1300EC5801 /* WhirlyGlobe-MaplyComponent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "WhirlyGlobe-MaplyComponent.xcodeproj"; path = "dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/WhirlyGlobe-MaplyComponent.xcodeproj"; sourceTree = "<group>"; };
-		2B944768171352F90038B551 /* MapBox Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapBox Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B944768171352F90038B551 /* MapBox Mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapBox Mars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B94476B171352F90038B551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B94476D171352F90038B551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B94476F171352F90038B551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B944773171352F90038B551 /* MapBox Earth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapBox Earth-Info.plist"; sourceTree = "<group>"; };
+		2B944773171352F90038B551 /* MapBox Mars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapBox Mars-Info.plist"; sourceTree = "<group>"; };
 		2B944775171352F90038B551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B944777171352F90038B551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B944779171352F90038B551 /* MapBox Earth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapBox Earth-Prefix.pch"; sourceTree = "<group>"; };
+		2B944779171352F90038B551 /* MapBox Mars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapBox Mars-Prefix.pch"; sourceTree = "<group>"; };
 		2B94477A171352F90038B551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B94477B171352F90038B551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B94477D171352F90038B551 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		2B94475F171352F90038B551 = {
 			isa = PBXGroup;
 			children = (
-				2B944771171352F90038B551 /* MapBox Earth */,
+				2B944771171352F90038B551 /* MapBox Mars */,
 				2BDC785017152985008F5402 /* Resources */,
 				DD58993C17387A79008FC178 /* Vendor */,
 				2B94476A171352F90038B551 /* Frameworks */,
@@ -177,7 +177,7 @@
 		2B944769171352F90038B551 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B944768171352F90038B551 /* MapBox Earth.app */,
+				2B944768171352F90038B551 /* MapBox Mars.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B944771171352F90038B551 /* MapBox Earth */ = {
+		2B944771171352F90038B551 /* MapBox Mars */ = {
 			isa = PBXGroup;
 			children = (
 				2B94477A171352F90038B551 /* AppDelegate.h */,
@@ -207,16 +207,16 @@
 				2B9447C31713D2560038B551 /* GlobeViewController.xib */,
 				2B944772171352F90038B551 /* Supporting Files */,
 			);
-			path = "MapBox Earth";
+			path = "MapBox Mars";
 			sourceTree = "<group>";
 		};
 		2B944772171352F90038B551 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B944773171352F90038B551 /* MapBox Earth-Info.plist */,
+				2B944773171352F90038B551 /* MapBox Mars-Info.plist */,
 				2B944774171352F90038B551 /* InfoPlist.strings */,
 				2B944777171352F90038B551 /* main.m */,
-				2B944779171352F90038B551 /* MapBox Earth-Prefix.pch */,
+				2B944779171352F90038B551 /* MapBox Mars-Prefix.pch */,
 				2B94477D171352F90038B551 /* Default.png */,
 				2B94477F171352F90038B551 /* Default@2x.png */,
 				2B944781171352F90038B551 /* Default-568h@2x.png */,
@@ -261,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B944767171352F90038B551 /* MapBox Earth */ = {
+		2B944767171352F90038B551 /* MapBox Mars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B944785171352F90038B551 /* Build configuration list for PBXNativeTarget "MapBox Earth" */;
+			buildConfigurationList = 2B944785171352F90038B551 /* Build configuration list for PBXNativeTarget "MapBox Mars" */;
 			buildPhases = (
 				2B944764171352F90038B551 /* Sources */,
 				2B944765171352F90038B551 /* Frameworks */,
@@ -273,9 +273,9 @@
 			);
 			dependencies = (
 			);
-			name = "MapBox Earth";
-			productName = "MapBox Earth";
-			productReference = 2B944768171352F90038B551 /* MapBox Earth.app */;
+			name = "MapBox Mars";
+			productName = "MapBox Mars";
+			productReference = 2B944768171352F90038B551 /* MapBox Mars.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -287,7 +287,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "mousebird consulting";
 			};
-			buildConfigurationList = 2B944763171352F90038B551 /* Build configuration list for PBXProject "MapBox Earth" */;
+			buildConfigurationList = 2B944763171352F90038B551 /* Build configuration list for PBXProject "MapBox Mars" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -305,7 +305,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				2B944767171352F90038B551 /* MapBox Earth */,
+				2B944767171352F90038B551 /* MapBox Mars */,
 			);
 		};
 /* End PBXProject section */
@@ -442,9 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MapBox Earth/MapBox Earth-Prefix.pch";
+				GCC_PREFIX_HEADER = "MapBox Mars/MapBox Mars-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
-				INFOPLIST_FILE = "MapBox Earth/MapBox Earth-Info.plist";
+				INFOPLIST_FILE = "MapBox Mars/MapBox Mars-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,9 +456,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MapBox Earth/MapBox Earth-Prefix.pch";
+				GCC_PREFIX_HEADER = "MapBox Mars/MapBox Mars-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
-				INFOPLIST_FILE = "MapBox Earth/MapBox Earth-Info.plist";
+				INFOPLIST_FILE = "MapBox Mars/MapBox Mars-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,9 +497,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MapBox Earth/MapBox Earth-Prefix.pch";
+				GCC_PREFIX_HEADER = "MapBox Mars/MapBox Mars-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
-				INFOPLIST_FILE = "MapBox Earth/MapBox Earth-Info.plist";
+				INFOPLIST_FILE = "MapBox Mars/MapBox Mars-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B944763171352F90038B551 /* Build configuration list for PBXProject "MapBox Earth" */ = {
+		2B944763171352F90038B551 /* Build configuration list for PBXProject "MapBox Mars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B944783171352F90038B551 /* Debug */,
@@ -520,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B944785171352F90038B551 /* Build configuration list for PBXNativeTarget "MapBox Earth" */ = {
+		2B944785171352F90038B551 /* Build configuration list for PBXNativeTarget "MapBox Mars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B944786171352F90038B551 /* Debug */,
