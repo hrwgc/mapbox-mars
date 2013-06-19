@@ -441,6 +441,8 @@
 		2B944786171352F90038B551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapBox Mars/MapBox Mars-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
@@ -448,6 +450,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -455,6 +459,8 @@
 		2B944787171352F90038B551 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapBox Mars/MapBox Mars-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
@@ -462,6 +468,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -496,6 +504,8 @@
 		DD6097E51731EA1400F53DB9 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MapBox Mars/MapBox Mars-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/dependencies/WhirlyGlobe-Maply/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/include/";
@@ -503,6 +513,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad Hoc";
